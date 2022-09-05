@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+.row #sidebar {
+  width: 290px;
+  padding: 50px 0 0 30px;
+}
+.row #sidebar .profile-img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.row #sidebar .title {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 4px 0;
+  color: #0C145A;
+}
+.row #sidebar .desc {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 52px;
+  color: #7E8CAC;
+}
+.row #sidebar .sidebar-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.row #sidebar .sidebar-item svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.row #sidebar .sidebar-item .title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #7E8CAC;
+  margin: 0;
+}
+.row #sidebar .sidebar-item.active {
+  position: relative;
+}
+.row #sidebar .sidebar-item.active .title {
+  font-weight: 500;
+  color: #0C145A;
+}
+.row #sidebar .sidebar-item.active::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0, 186, 255);
+  border-radius: 4px;
+}
+.row #mainbar {
+  padding: 50px 53px 0 50px;
+}
+.row #mainbar .title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #0C145A;
+  margin-bottom: 30px;
+}
+.row #mainbar .desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #7E8CAC;
+  margin-bottom: 4px;
+}
+.row #mainbar .price {
+  font-weight: 500;
+  font-size: 42px;
+  color: #0C145A;
+  margin-bottom: 30px;
+}
+.row #mainbar .nav-container {
+  gap: 18px;
+}
+.row #mainbar .nav-container .nav-item {
+  width: 112px;
+  height: 40px;
+  border-radius: 80px;
+  background: #E7EAF5;
+}
+.row #mainbar .nav-container .nav-item .desc {
+  font-weight: 400;
+  font-size: 14.4px;
+  color: #0C145A;
+  margin-bottom: 0;
+}
+.row #mainbar .nav-container .nav-item.active {
+  background: #2B2467;
+}
+.row #mainbar .nav-container .nav-item.active .desc {
+  color: #fff;
+}
+.row #mainbar #game-table {
+  width: 100%;
+  padding: 40px 53px 0 30px;
+}
+.row #mainbar #game-table .game-item {
+  gap: 16px;
+}
+.row #mainbar #game-table .game-item .title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #0C145A;
+  margin-bottom: 4px;
+}
+.row #mainbar #game-table .game-item .desc {
+  font-weight: 400;
+  font-size: 12px;
+  color: #7E8CAC;
+}
+.row #mainbar #game-table .table-desc {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0C145A;
+}
+.row #mainbar #game-table .status-warning {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  background: #FEBD57;
+}
+.row #mainbar #game-table .status-success {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  background: #1ABC9C;
+}
+.row #mainbar #game-table .status-failed {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  background: #FE5761;
+}
+.row #mainbar #game-table .action-item {
+  width: 112px;
+  height: 40px;
+  background: #E7EAF5;
+  border-radius: 80px;
+  margin: auto;
+}
+.row #mainbar #game-table .action-item .desc {
+  font-weight: 400;
+  font-size: 14.4px;
+  color: #0C145A;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
